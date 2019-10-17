@@ -814,14 +814,15 @@ input[type="checkbox"] {
 
 footer {
     padding: 50px;
-    font-size: 60%;
+    font-size: 65%;
     font-weight: 400;
 }
 
 .footer-nav {
     list-style: none;
-    float: left;
+    float: right;
     text-align:right;
+    width: 130%;
 }
 
 .social-links {
