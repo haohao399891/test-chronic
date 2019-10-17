@@ -1070,7 +1070,7 @@ Dropdown
     -moz-border-radius: 10px;
     border-radius: 10px;
     -webkit-box-shadow: 0 3px 0 #ccc;
-
+    font-family: 'Montserrat', 'Arial', sans-serif;
 }
 
 select {
@@ -1136,7 +1136,7 @@ span.choose {
     }
 
     .dropdown select {
-        font-family: Montserrat;
+        font-family: 'Montserrat', 'Arial', sans-serif;
     }
 
     .dropdown::after {
@@ -1190,7 +1190,8 @@ span.choose {
             padding-bottom: 20px;
             padding-left: 30px;
             transition: all .2s ease-in-out;
-            cursor: pointer
+            cursor: pointer;
+            font-family: 'Montserrat', 'Arial', sans-serif;
         }
 
     .dropdown .dropdown-menu {
