@@ -1196,7 +1196,8 @@ span.choose {
 
     .dropdown .dropdown-menu {
         padding: 0;
-        list-style: none
+        list-style: none;
+        ont-family: 'Montserrat', 'Arial', sans-serif;
     }
 
         .dropdown .dropdown-menu li:hover {
