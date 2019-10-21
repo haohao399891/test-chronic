@@ -208,3 +208,26 @@ window.onclick = function(event) {
     modal.style.display = "none";
   }
 }
+
+
+function getMailtoUrl() {
+        var args = [];
+        if (typeof subject !== 'undefined') {
+            args.push('subject=' + encodeURIComponent('主题内容 Message from Clients'));
+        }
+        var name = $("input[name='name']").val();
+        var email = $("input[name='email']").val();
+        var phone = $("input[name='phone']").val();
+        var body = name +"\n"+ email +"\n"+phone
+        if (typeof body !== 'undefined') {
+            args.push('body=' + encodeURIComponent(body))
+        }
+
+        var url = 'mailto:' + encodeURIComponent('zhangyihao1991@gmail.com');
+        if (args.length > 0) {
+            url += '?' + args.join('&');
+        }
+        console.log(url);
+        window.location = url;
+        return url;
+    }
