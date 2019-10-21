@@ -218,7 +218,7 @@ function getMailtoUrl() {
         var name = $("input[name='name']").val();
         var email = $("input[name='email']").val();
         var phone = $("input[name='phone']").val();
-        var body = name +"\n"+ email +"\n"+phone
+        var body = name +"\n"+ email +"\n"+ phone
         if (typeof body !== 'undefined') {
             args.push('body=' + encodeURIComponent(body))
         }
