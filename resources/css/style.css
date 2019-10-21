@@ -1059,6 +1059,10 @@ footer p {
 Dropdown
 */
 
+#mySelect option{
+        font-family: 'Montserrat', 'Arial', sans-serif;
+}
+
 .content-selection select {
     width: 100px;
     padding: 5px;
