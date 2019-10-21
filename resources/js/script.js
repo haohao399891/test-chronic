@@ -213,17 +213,19 @@ window.onclick = function(event) {
 function getMailtoUrl() {
         var args = [];
         if (typeof subject !== 'undefined') {
-            args.push('subject=' + encodeURIComponent('主题内容 Message from Clients'));
+            args.push('subject=' + encodeURIComponent('Sending questions or comments to Echo Research'));
         }
         var name = $("input[name='name']").val();
         var email = $("input[name='email']").val();
         var phone = $("input[name='phone']").val();
-        var body = name +"\n"+ email +"\n"+ phone
+        var checkbox = $("input[name='checkbox']").val();
+    
+        var body = name +"\n"+ email +"\n"+ phone +"\n"+ checkbox
         if (typeof body !== 'undefined') {
             args.push('body=' + encodeURIComponent(body))
         }
 
-        var url = 'mailto:' + encodeURIComponent('zhangyihao1991@gmail.com');
+        var url = 'mailto:' + encodeURIComponent('shannon.scott@ualberta.ca');
         if (args.length > 0) {
             url += '?' + args.join('&');
         }
