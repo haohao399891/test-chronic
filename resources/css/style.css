@@ -129,7 +129,7 @@ h1 {
     color: #662D91;
     font-size: 250%;
     word-spacing: 2px;
-    letter-spacing: 1px;
+    letter-spacing: -1px;
     line-height: 100%;
 }
 
