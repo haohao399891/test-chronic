@@ -1059,7 +1059,7 @@ footer p {
 Dropdown
 */
 
-#mySelect:option {
+#mySelect option {
     font-family: 'Montserrat', 'Arial', sans-serif;
 }
 
