@@ -1074,7 +1074,7 @@ Dropdown
     -moz-border-radius: 10px;
     border-radius: 10px;
     -webkit-box-shadow: 0 3px 0 #ccc;
-
+    font-family: 'Montserrat', 'Arial', sans-serif;
 }
 
 select {
@@ -1098,11 +1098,6 @@ span.choose {
     font-family: 'Montserrat', 'Arial', sans-serif;
 }
 
-.select {
-    padding-top: 12px;
-    height: 50px;
-    padding-left: 30px;
-}
 /*Styling Selectbox*/
 .dropdown {
     position: relative;
